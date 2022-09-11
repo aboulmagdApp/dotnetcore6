@@ -14,5 +14,6 @@ namespace webapi.Models
         public int Defense { get; set; } = 10;
         public int Intelligense { get; set; } = 10;
         public RgbClass Class { get; set; } = RgbClass.Knight;
+        public User? User { get; set; }
     }
 }
